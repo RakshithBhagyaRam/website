@@ -1,0 +1,4 @@
+django==4.1
+db.sqlite3
+django-crispy-forms
+Pillow
