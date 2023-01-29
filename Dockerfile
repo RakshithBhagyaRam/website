@@ -2,7 +2,7 @@ FROM python:3.10-slim-buster
 RUN mkdir /code
 WORKDIR /code
 #COPY . /app
-#EXPOSE 8000
+#EXPOSE 8000 
 COPY requirements.txt /code/
 RUN pip install --user -r requirements.txt
 COPY . /code/
